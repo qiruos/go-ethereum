@@ -24,11 +24,11 @@ import (
 	"slices"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie/triestate"
+	"github.com/qiruos/go-ethereum/common"
+	"github.com/qiruos/go-ethereum/core/rawdb"
+	"github.com/qiruos/go-ethereum/ethdb"
+	"github.com/qiruos/go-ethereum/log"
+	"github.com/qiruos/go-ethereum/trie/triestate"
 	"golang.org/x/exp/maps"
 )
 

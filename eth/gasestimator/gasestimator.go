@@ -23,13 +23,13 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/qiruos/go-ethereum/common"
+	"github.com/qiruos/go-ethereum/core"
+	"github.com/qiruos/go-ethereum/core/state"
+	"github.com/qiruos/go-ethereum/core/types"
+	"github.com/qiruos/go-ethereum/core/vm"
+	"github.com/qiruos/go-ethereum/log"
+	"github.com/qiruos/go-ethereum/params"
 )
 
 // Options are the contextual parameters to execute the requested call.

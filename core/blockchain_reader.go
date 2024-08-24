@@ -20,17 +20,17 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/triedb"
+	"github.com/qiruos/go-ethereum/common"
+	"github.com/qiruos/go-ethereum/consensus"
+	"github.com/qiruos/go-ethereum/core/rawdb"
+	"github.com/qiruos/go-ethereum/core/state"
+	"github.com/qiruos/go-ethereum/core/state/snapshot"
+	"github.com/qiruos/go-ethereum/core/types"
+	"github.com/qiruos/go-ethereum/core/vm"
+	"github.com/qiruos/go-ethereum/event"
+	"github.com/qiruos/go-ethereum/params"
+	"github.com/qiruos/go-ethereum/rlp"
+	"github.com/qiruos/go-ethereum/triedb"
 )
 
 // CurrentHeader retrieves the current head header of the canonical chain. The

@@ -19,13 +19,13 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/stateless"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie/utils"
 	"github.com/holiman/uint256"
+	"github.com/qiruos/go-ethereum/common"
+	"github.com/qiruos/go-ethereum/core/stateless"
+	"github.com/qiruos/go-ethereum/core/tracing"
+	"github.com/qiruos/go-ethereum/core/types"
+	"github.com/qiruos/go-ethereum/params"
+	"github.com/qiruos/go-ethereum/trie/utils"
 )
 
 // StateDB is an EVM database for full state querying.

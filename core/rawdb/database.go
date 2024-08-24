@@ -25,13 +25,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/leveldb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/ethdb/pebble"
-	"github.com/ethereum/go-ethereum/log"
 	"github.com/olekukonko/tablewriter"
+	"github.com/qiruos/go-ethereum/common"
+	"github.com/qiruos/go-ethereum/ethdb"
+	"github.com/qiruos/go-ethereum/ethdb/leveldb"
+	"github.com/qiruos/go-ethereum/ethdb/memorydb"
+	"github.com/qiruos/go-ethereum/ethdb/pebble"
+	"github.com/qiruos/go-ethereum/log"
 )
 
 // freezerdb is a database wrapper that enables ancient chain segment freezing.

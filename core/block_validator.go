@@ -20,13 +20,13 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/stateless"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/qiruos/go-ethereum/common"
+	"github.com/qiruos/go-ethereum/consensus"
+	"github.com/qiruos/go-ethereum/core/state"
+	"github.com/qiruos/go-ethereum/core/stateless"
+	"github.com/qiruos/go-ethereum/core/types"
+	"github.com/qiruos/go-ethereum/params"
+	"github.com/qiruos/go-ethereum/trie"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

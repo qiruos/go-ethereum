@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/internal/cmdtest"
-	"github.com/ethereum/go-ethereum/internal/reexec"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/qiruos/go-ethereum/internal/cmdtest"
+	"github.com/qiruos/go-ethereum/internal/reexec"
+	"github.com/qiruos/go-ethereum/rpc"
 )
 
 type testgeth struct {
