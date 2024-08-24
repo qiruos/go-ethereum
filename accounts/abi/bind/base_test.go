@@ -24,11 +24,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/qiruos/go-ethereum"
 	"github.com/qiruos/go-ethereum/accounts/abi"
 	"github.com/qiruos/go-ethereum/accounts/abi/bind"
-	"github.com/qiruos/go-ethereum/common"
-	"github.com/qiruos/go-ethereum/common/hexutil"
 	"github.com/qiruos/go-ethereum/core/types"
 	"github.com/qiruos/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/rlp"

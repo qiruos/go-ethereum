@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/qiruos/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/core/rawdb"
 	"github.com/qiruos/go-ethereum/ethdb/memorydb"
 	"github.com/qiruos/go-ethereum/rlp"

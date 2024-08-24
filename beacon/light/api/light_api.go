@@ -28,11 +28,11 @@ import (
 	"time"
 
 	"github.com/donovanhide/eventsource"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/qiruos/go-ethereum/beacon/merkle"
 	"github.com/qiruos/go-ethereum/beacon/params"
 	"github.com/qiruos/go-ethereum/beacon/types"
-	"github.com/qiruos/go-ethereum/common"
-	"github.com/qiruos/go-ethereum/common/hexutil"
 	"github.com/qiruos/go-ethereum/log"
 )
 

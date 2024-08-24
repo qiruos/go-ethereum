@@ -21,9 +21,9 @@ import (
 	"math"
 	"math/big"
 
+	"github.com/ethereum/go-ethereum/common"
+	cmath "github.com/ethereum/go-ethereum/common/math"
 	"github.com/holiman/uint256"
-	"github.com/qiruos/go-ethereum/common"
-	cmath "github.com/qiruos/go-ethereum/common/math"
 	"github.com/qiruos/go-ethereum/core/tracing"
 	"github.com/qiruos/go-ethereum/core/types"
 	"github.com/qiruos/go-ethereum/core/vm"

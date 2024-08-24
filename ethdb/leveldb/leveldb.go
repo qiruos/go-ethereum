@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qiruos/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/ethdb"
 	"github.com/qiruos/go-ethereum/log"
 	"github.com/qiruos/go-ethereum/metrics"

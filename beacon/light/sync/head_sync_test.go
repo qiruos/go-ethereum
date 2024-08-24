@@ -19,9 +19,9 @@ package sync
 import (
 	"testing"
 
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/beacon/light/request"
 	"github.com/qiruos/go-ethereum/beacon/types"
-	"github.com/qiruos/go-ethereum/common"
 )
 
 var (

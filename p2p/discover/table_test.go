@@ -27,7 +27,7 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/qiruos/go-ethereum/common/mclock"
+	"github.com/ethereum/go-ethereum/common/mclock"
 	"github.com/qiruos/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/internal/testlog"
 	"github.com/qiruos/go-ethereum/log"

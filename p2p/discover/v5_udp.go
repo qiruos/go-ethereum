@@ -30,7 +30,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qiruos/go-ethereum/common/mclock"
+	"github.com/ethereum/go-ethereum/common/mclock"
 	"github.com/qiruos/go-ethereum/log"
 	"github.com/qiruos/go-ethereum/p2p/discover/v5wire"
 	"github.com/qiruos/go-ethereum/p2p/enode"

@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/qiruos/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/consensus/ethash"
 	"github.com/qiruos/go-ethereum/core/rawdb"
 	"github.com/qiruos/go-ethereum/core/state"

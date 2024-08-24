@@ -25,10 +25,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/accounts"
 	"github.com/qiruos/go-ethereum/accounts/keystore"
 	"github.com/qiruos/go-ethereum/cmd/utils"
-	"github.com/qiruos/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/console/prompt"
 	"github.com/qiruos/go-ethereum/eth/downloader"
 	"github.com/qiruos/go-ethereum/ethclient"

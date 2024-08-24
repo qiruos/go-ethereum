@@ -19,7 +19,7 @@ package eth
 import (
 	"time"
 
-	"github.com/qiruos/go-ethereum/common/bitutil"
+	"github.com/ethereum/go-ethereum/common/bitutil"
 	"github.com/qiruos/go-ethereum/core/rawdb"
 )
 

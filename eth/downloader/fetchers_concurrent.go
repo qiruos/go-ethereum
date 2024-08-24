@@ -21,8 +21,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/qiruos/go-ethereum/common"
-	"github.com/qiruos/go-ethereum/common/prque"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/prque"
 	"github.com/qiruos/go-ethereum/eth/protocols/eth"
 	"github.com/qiruos/go-ethereum/log"
 )

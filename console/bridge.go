@@ -26,9 +26,9 @@ import (
 	"time"
 
 	"github.com/dop251/goja"
+	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/qiruos/go-ethereum/accounts/scwallet"
 	"github.com/qiruos/go-ethereum/accounts/usbwallet"
-	"github.com/qiruos/go-ethereum/common/hexutil"
 	"github.com/qiruos/go-ethereum/console/prompt"
 	"github.com/qiruos/go-ethereum/internal/jsre"
 	"github.com/qiruos/go-ethereum/rpc"

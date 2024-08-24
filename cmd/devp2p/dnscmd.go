@@ -25,8 +25,8 @@ import (
 	"path/filepath"
 	"time"
 
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/accounts/keystore"
-	"github.com/qiruos/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/console/prompt"
 	"github.com/qiruos/go-ethereum/p2p/dnsdisc"
 	"github.com/qiruos/go-ethereum/p2p/enode"

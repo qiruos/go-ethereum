@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/qiruos/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/core/types"
 	"github.com/qiruos/go-ethereum/trie/trienode"
 	"github.com/qiruos/go-ethereum/trie/triestate"

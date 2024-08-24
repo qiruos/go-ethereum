@@ -24,7 +24,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/qiruos/go-ethereum/common/math"
+	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/qiruos/go-ethereum/core/vm"
 )
 

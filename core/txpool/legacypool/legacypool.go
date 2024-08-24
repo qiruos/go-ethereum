@@ -26,9 +26,9 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/prque"
 	"github.com/holiman/uint256"
-	"github.com/qiruos/go-ethereum/common"
-	"github.com/qiruos/go-ethereum/common/prque"
 	"github.com/qiruos/go-ethereum/consensus/misc/eip1559"
 	"github.com/qiruos/go-ethereum/core"
 	"github.com/qiruos/go-ethereum/core/state"

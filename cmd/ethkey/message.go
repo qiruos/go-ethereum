@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/accounts"
 	"github.com/qiruos/go-ethereum/accounts/keystore"
 	"github.com/qiruos/go-ethereum/cmd/utils"
-	"github.com/qiruos/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/crypto"
 	"github.com/urfave/cli/v2"
 )

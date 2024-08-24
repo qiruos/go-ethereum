@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/qiruos/go-ethereum/common/hexutil"
+	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/qiruos/go-ethereum/rpc"
 )
 

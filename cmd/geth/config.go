@@ -26,6 +26,8 @@ import (
 	"strings"
 	"unicode"
 
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/naoina/toml"
 	"github.com/qiruos/go-ethereum/accounts"
 	"github.com/qiruos/go-ethereum/accounts/external"
@@ -34,8 +36,6 @@ import (
 	"github.com/qiruos/go-ethereum/accounts/usbwallet"
 	"github.com/qiruos/go-ethereum/beacon/blsync"
 	"github.com/qiruos/go-ethereum/cmd/utils"
-	"github.com/qiruos/go-ethereum/common"
-	"github.com/qiruos/go-ethereum/common/hexutil"
 	"github.com/qiruos/go-ethereum/eth/catalyst"
 	"github.com/qiruos/go-ethereum/eth/ethconfig"
 	"github.com/qiruos/go-ethereum/internal/flags"

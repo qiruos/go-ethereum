@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/qiruos/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 const testSectionSize = 4096

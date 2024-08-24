@@ -22,8 +22,8 @@ import (
 	"log/slog"
 	"os"
 
-	"github.com/qiruos/go-ethereum/common"
-	"github.com/qiruos/go-ethereum/common/hexutil"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/qiruos/go-ethereum/internal/ethapi"
 	"github.com/qiruos/go-ethereum/log"
 	"github.com/qiruos/go-ethereum/signer/core/apitypes"

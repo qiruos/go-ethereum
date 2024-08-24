@@ -19,7 +19,7 @@ package core
 import (
 	"sync/atomic"
 
-	"github.com/qiruos/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/core/state"
 	"github.com/qiruos/go-ethereum/core/stateless"
 	"github.com/qiruos/go-ethereum/core/types"

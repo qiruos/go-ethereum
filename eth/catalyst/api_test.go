@@ -28,10 +28,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/mattn/go-colorable"
 	"github.com/qiruos/go-ethereum/beacon/engine"
-	"github.com/qiruos/go-ethereum/common"
-	"github.com/qiruos/go-ethereum/common/hexutil"
 	"github.com/qiruos/go-ethereum/consensus"
 	beaconConsensus "github.com/qiruos/go-ethereum/consensus/beacon"
 	"github.com/qiruos/go-ethereum/consensus/ethash"

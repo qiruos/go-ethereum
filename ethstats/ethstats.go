@@ -30,10 +30,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/mclock"
 	"github.com/gorilla/websocket"
 	"github.com/qiruos/go-ethereum"
-	"github.com/qiruos/go-ethereum/common"
-	"github.com/qiruos/go-ethereum/common/mclock"
 	"github.com/qiruos/go-ethereum/consensus"
 	"github.com/qiruos/go-ethereum/core"
 	"github.com/qiruos/go-ethereum/core/types"

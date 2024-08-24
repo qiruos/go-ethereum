@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/qiruos/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 // ErrCommitted is returned when an already committed trie is requested for usage.

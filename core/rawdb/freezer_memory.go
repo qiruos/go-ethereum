@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/qiruos/go-ethereum/common"
-	"github.com/qiruos/go-ethereum/common/math"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/qiruos/go-ethereum/ethdb"
 	"github.com/qiruos/go-ethereum/log"
 	"github.com/qiruos/go-ethereum/rlp"

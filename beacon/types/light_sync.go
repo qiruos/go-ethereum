@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/beacon/merkle"
 	"github.com/qiruos/go-ethereum/beacon/params"
-	"github.com/qiruos/go-ethereum/common"
 	ctypes "github.com/qiruos/go-ethereum/core/types"
 )
 

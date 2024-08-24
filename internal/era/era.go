@@ -28,8 +28,8 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/golang/snappy"
-	"github.com/qiruos/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/core/types"
 	"github.com/qiruos/go-ethereum/internal/era/e2store"
 	"github.com/qiruos/go-ethereum/rlp"

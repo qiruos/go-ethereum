@@ -23,9 +23,9 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-verkle"
 	"github.com/qiruos/go-ethereum/cmd/utils"
-	"github.com/qiruos/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/core/rawdb"
 	"github.com/qiruos/go-ethereum/internal/flags"
 	"github.com/qiruos/go-ethereum/log"

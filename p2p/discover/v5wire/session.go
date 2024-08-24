@@ -22,8 +22,8 @@ import (
 	"encoding/binary"
 	"time"
 
-	"github.com/qiruos/go-ethereum/common/lru"
-	"github.com/qiruos/go-ethereum/common/mclock"
+	"github.com/ethereum/go-ethereum/common/lru"
+	"github.com/ethereum/go-ethereum/common/mclock"
 	"github.com/qiruos/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/p2p/enode"
 )

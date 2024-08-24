@@ -86,11 +86,11 @@ compile_fuzzer github.com/qiruos/go-ethereum/accounts/abi \
   FuzzABI fuzzAbi \
   $repo/accounts/abi/abifuzzer_test.go
 
-compile_fuzzer github.com/qiruos/go-ethereum/common/bitutil \
+compile_fuzzer github.com/ethereum/go-ethereum/common/bitutil \
   FuzzEncoder fuzzBitutilEncoder \
   $repo/common/bitutil/compress_test.go
 
-compile_fuzzer github.com/qiruos/go-ethereum/common/bitutil \
+compile_fuzzer github.com/ethereum/go-ethereum/common/bitutil \
   FuzzDecoder fuzzBitutilDecoder \
   $repo/common/bitutil/compress_test.go
 

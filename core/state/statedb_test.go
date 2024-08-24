@@ -31,8 +31,8 @@ import (
 	"testing"
 	"testing/quick"
 
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/holiman/uint256"
-	"github.com/qiruos/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/core/rawdb"
 	"github.com/qiruos/go-ethereum/core/state/snapshot"
 	"github.com/qiruos/go-ethereum/core/tracing"

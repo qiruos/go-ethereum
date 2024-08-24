@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/qiruos/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/core/forkid"
 	"github.com/qiruos/go-ethereum/metrics"
 	"github.com/qiruos/go-ethereum/p2p"

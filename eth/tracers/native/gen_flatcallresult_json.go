@@ -5,8 +5,8 @@ package native
 import (
 	"encoding/json"
 
-	"github.com/qiruos/go-ethereum/common"
-	"github.com/qiruos/go-ethereum/common/hexutil"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/hexutil"
 )
 
 var _ = (*flatCallResultMarshaling)(nil)

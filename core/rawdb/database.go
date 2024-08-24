@@ -25,8 +25,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/olekukonko/tablewriter"
-	"github.com/qiruos/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/ethdb"
 	"github.com/qiruos/go-ethereum/ethdb/leveldb"
 	"github.com/qiruos/go-ethereum/ethdb/memorydb"

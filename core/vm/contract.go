@@ -17,8 +17,8 @@
 package vm
 
 import (
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/holiman/uint256"
-	"github.com/qiruos/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/core/tracing"
 )
 

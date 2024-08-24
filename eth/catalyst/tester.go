@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qiruos/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/eth"
 	"github.com/qiruos/go-ethereum/eth/downloader"
 	"github.com/qiruos/go-ethereum/log"

@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/accounts"
 	"github.com/qiruos/go-ethereum/beacon/engine"
-	"github.com/qiruos/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/consensus"
 	"github.com/qiruos/go-ethereum/consensus/clique"
 	"github.com/qiruos/go-ethereum/consensus/ethash"

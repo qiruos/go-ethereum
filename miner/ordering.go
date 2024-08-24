@@ -20,8 +20,8 @@ import (
 	"container/heap"
 	"math/big"
 
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/holiman/uint256"
-	"github.com/qiruos/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/core/txpool"
 	"github.com/qiruos/go-ethereum/core/types"
 )

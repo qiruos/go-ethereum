@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qiruos/go-ethereum/common/mclock"
+	"github.com/ethereum/go-ethereum/common/mclock"
 	"github.com/qiruos/go-ethereum/event"
 	"github.com/qiruos/go-ethereum/log"
 	"github.com/qiruos/go-ethereum/metrics"

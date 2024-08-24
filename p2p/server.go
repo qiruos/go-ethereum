@@ -31,8 +31,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/qiruos/go-ethereum/common"
-	"github.com/qiruos/go-ethereum/common/mclock"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/mclock"
 	"github.com/qiruos/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/event"
 	"github.com/qiruos/go-ethereum/log"

@@ -28,7 +28,7 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/qiruos/go-ethereum/common/mclock"
+	"github.com/ethereum/go-ethereum/common/mclock"
 	"github.com/qiruos/go-ethereum/p2p/enode"
 	"github.com/qiruos/go-ethereum/p2p/enr"
 	"github.com/qiruos/go-ethereum/rlp"

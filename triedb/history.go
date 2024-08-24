@@ -19,7 +19,7 @@ package triedb
 import (
 	"errors"
 
-	"github.com/qiruos/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/triedb/pathdb"
 )
 

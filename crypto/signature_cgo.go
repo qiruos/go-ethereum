@@ -24,7 +24,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/qiruos/go-ethereum/common/math"
+	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/qiruos/go-ethereum/crypto/secp256k1"
 )
 

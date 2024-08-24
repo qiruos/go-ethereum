@@ -30,8 +30,8 @@ import (
 	"github.com/qiruos/go-ethereum/eth/tracers"
 	"github.com/qiruos/go-ethereum/eth/tracers/internal"
 
-	"github.com/qiruos/go-ethereum/common"
-	"github.com/qiruos/go-ethereum/common/hexutil"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/qiruos/go-ethereum/core/vm"
 	"github.com/qiruos/go-ethereum/crypto"
 	jsassets "github.com/qiruos/go-ethereum/eth/tracers/js/internal/tracers"

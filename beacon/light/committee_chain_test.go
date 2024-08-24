@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/ethereum/go-ethereum/common/mclock"
 	"github.com/qiruos/go-ethereum/beacon/params"
 	"github.com/qiruos/go-ethereum/beacon/types"
-	"github.com/qiruos/go-ethereum/common/mclock"
 	"github.com/qiruos/go-ethereum/ethdb/memorydb"
 )
 

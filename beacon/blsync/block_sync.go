@@ -17,12 +17,12 @@
 package blsync
 
 import (
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/lru"
 	"github.com/qiruos/go-ethereum/beacon/light/request"
 	"github.com/qiruos/go-ethereum/beacon/light/sync"
 	"github.com/qiruos/go-ethereum/beacon/params"
 	"github.com/qiruos/go-ethereum/beacon/types"
-	"github.com/qiruos/go-ethereum/common"
-	"github.com/qiruos/go-ethereum/common/lru"
 	"github.com/qiruos/go-ethereum/event"
 	"github.com/qiruos/go-ethereum/log"
 )

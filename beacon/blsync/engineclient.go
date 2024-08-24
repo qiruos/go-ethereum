@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/beacon/engine"
 	"github.com/qiruos/go-ethereum/beacon/types"
-	"github.com/qiruos/go-ethereum/common"
 	ctypes "github.com/qiruos/go-ethereum/core/types"
 	"github.com/qiruos/go-ethereum/log"
 	"github.com/qiruos/go-ethereum/rpc"

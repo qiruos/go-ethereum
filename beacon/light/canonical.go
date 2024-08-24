@@ -20,7 +20,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/qiruos/go-ethereum/common/lru"
+	"github.com/ethereum/go-ethereum/common/lru"
 	"github.com/qiruos/go-ethereum/ethdb"
 	"github.com/qiruos/go-ethereum/log"
 	"github.com/qiruos/go-ethereum/rlp"

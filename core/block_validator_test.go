@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/qiruos/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/qiruos/go-ethereum/consensus"
 	"github.com/qiruos/go-ethereum/consensus/beacon"
 	"github.com/qiruos/go-ethereum/consensus/clique"
