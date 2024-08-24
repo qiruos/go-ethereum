@@ -22,7 +22,7 @@ import (
 	"testing"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/qiruos/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 func TestBloom(t *testing.T) {

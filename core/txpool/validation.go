@@ -23,10 +23,10 @@ import (
 	"math/big"
 
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto/kzg4844"
 	"github.com/qiruos/go-ethereum/core"
 	"github.com/qiruos/go-ethereum/core/state"
 	"github.com/qiruos/go-ethereum/core/types"
-	"github.com/qiruos/go-ethereum/crypto/kzg4844"
 	"github.com/qiruos/go-ethereum/log"
 	"github.com/qiruos/go-ethereum/params"
 )

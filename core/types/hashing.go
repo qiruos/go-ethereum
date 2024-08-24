@@ -23,7 +23,7 @@ import (
 	"sync"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/qiruos/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/rlp"
 	"golang.org/x/crypto/sha3"
 )

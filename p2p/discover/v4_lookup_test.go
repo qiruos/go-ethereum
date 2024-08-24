@@ -23,7 +23,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/qiruos/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/p2p/discover/v4wire"
 	"github.com/qiruos/go-ethereum/p2p/enode"
 	"github.com/qiruos/go-ethereum/p2p/enr"

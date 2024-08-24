@@ -24,10 +24,10 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/holiman/uint256"
 	"github.com/qiruos/go-ethereum/core/txpool"
 	"github.com/qiruos/go-ethereum/core/types"
-	"github.com/qiruos/go-ethereum/crypto"
 )
 
 func TestTransactionPriceNonceSortLegacy(t *testing.T) {

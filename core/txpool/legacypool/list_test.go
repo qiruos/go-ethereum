@@ -22,9 +22,9 @@ import (
 	"testing"
 
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/holiman/uint256"
 	"github.com/qiruos/go-ethereum/core/types"
-	"github.com/qiruos/go-ethereum/crypto"
 )
 
 // Tests that transactions can be added to strict lists and list contents and

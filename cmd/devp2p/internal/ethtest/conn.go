@@ -25,7 +25,7 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/qiruos/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/eth/protocols/eth"
 	"github.com/qiruos/go-ethereum/eth/protocols/snap"
 	"github.com/qiruos/go-ethereum/p2p"

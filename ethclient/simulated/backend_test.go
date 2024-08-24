@@ -25,9 +25,9 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/accounts/abi/bind"
 	"github.com/qiruos/go-ethereum/core/types"
-	"github.com/qiruos/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/params"
 )
 

@@ -25,8 +25,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/cmd/utils"
-	"github.com/qiruos/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/log"
 	"github.com/qiruos/go-ethereum/p2p/discover"
 	"github.com/qiruos/go-ethereum/p2p/enode"

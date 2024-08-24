@@ -22,7 +22,7 @@ import (
 	"net/netip"
 	"testing"
 
-	"github.com/qiruos/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/p2p/enr"
 	"github.com/qiruos/go-ethereum/p2p/netutil"
 	"github.com/stretchr/testify/assert"

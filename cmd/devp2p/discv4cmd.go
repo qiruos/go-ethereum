@@ -26,8 +26,8 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/qiruos/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/internal/flags"
 	"github.com/qiruos/go-ethereum/log"
 	"github.com/qiruos/go-ethereum/p2p/discover"

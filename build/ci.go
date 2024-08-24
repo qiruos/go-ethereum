@@ -56,7 +56,7 @@ import (
 
 	"github.com/cespare/cp"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/qiruos/go-ethereum/crypto/signify"
+	"github.com/ethereum/go-ethereum/crypto/signify"
 	"github.com/qiruos/go-ethereum/internal/build"
 	"github.com/qiruos/go-ethereum/params"
 )

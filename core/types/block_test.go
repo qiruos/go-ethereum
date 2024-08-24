@@ -24,7 +24,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/qiruos/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/internal/blocktest"
 	"github.com/qiruos/go-ethereum/params"
 	"github.com/qiruos/go-ethereum/rlp"

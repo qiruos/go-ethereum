@@ -30,6 +30,8 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto/kzg4844"
 	"github.com/holiman/billy"
 	"github.com/holiman/uint256"
 	"github.com/qiruos/go-ethereum/consensus/misc/eip1559"
@@ -40,8 +42,6 @@ import (
 	"github.com/qiruos/go-ethereum/core/tracing"
 	"github.com/qiruos/go-ethereum/core/txpool"
 	"github.com/qiruos/go-ethereum/core/types"
-	"github.com/qiruos/go-ethereum/crypto"
-	"github.com/qiruos/go-ethereum/crypto/kzg4844"
 	"github.com/qiruos/go-ethereum/ethdb/memorydb"
 	"github.com/qiruos/go-ethereum/log"
 	"github.com/qiruos/go-ethereum/params"

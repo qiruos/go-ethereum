@@ -23,11 +23,11 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	cmath "github.com/ethereum/go-ethereum/common/math"
+	"github.com/ethereum/go-ethereum/crypto/kzg4844"
 	"github.com/holiman/uint256"
 	"github.com/qiruos/go-ethereum/core/tracing"
 	"github.com/qiruos/go-ethereum/core/types"
 	"github.com/qiruos/go-ethereum/core/vm"
-	"github.com/qiruos/go-ethereum/crypto/kzg4844"
 	"github.com/qiruos/go-ethereum/params"
 )
 

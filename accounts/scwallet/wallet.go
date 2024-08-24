@@ -34,11 +34,11 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto"
 	pcsc "github.com/gballet/go-libpcsclite"
 	"github.com/qiruos/go-ethereum"
 	"github.com/qiruos/go-ethereum/accounts"
 	"github.com/qiruos/go-ethereum/core/types"
-	"github.com/qiruos/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/log"
 	"github.com/status-im/keycard-go/derivationpath"
 )

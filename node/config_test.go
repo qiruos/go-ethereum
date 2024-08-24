@@ -23,7 +23,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/qiruos/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/p2p"
 )
 

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"net"
 
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/cmd/devp2p/internal/ethtest"
-	"github.com/qiruos/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/p2p"
 	"github.com/qiruos/go-ethereum/p2p/enode"
 	"github.com/qiruos/go-ethereum/p2p/rlpx"

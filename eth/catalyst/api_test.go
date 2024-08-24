@@ -30,6 +30,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto/kzg4844"
 	"github.com/mattn/go-colorable"
 	"github.com/qiruos/go-ethereum/beacon/engine"
 	"github.com/qiruos/go-ethereum/consensus"
@@ -37,8 +39,6 @@ import (
 	"github.com/qiruos/go-ethereum/consensus/ethash"
 	"github.com/qiruos/go-ethereum/core"
 	"github.com/qiruos/go-ethereum/core/types"
-	"github.com/qiruos/go-ethereum/crypto"
-	"github.com/qiruos/go-ethereum/crypto/kzg4844"
 	"github.com/qiruos/go-ethereum/eth"
 	"github.com/qiruos/go-ethereum/eth/downloader"
 	"github.com/qiruos/go-ethereum/eth/ethconfig"

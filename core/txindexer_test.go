@@ -21,10 +21,10 @@ import (
 	"testing"
 
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/consensus/ethash"
 	"github.com/qiruos/go-ethereum/core/rawdb"
 	"github.com/qiruos/go-ethereum/core/types"
-	"github.com/qiruos/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/ethdb"
 	"github.com/qiruos/go-ethereum/params"
 )

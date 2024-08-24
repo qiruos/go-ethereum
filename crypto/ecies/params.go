@@ -43,7 +43,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/qiruos/go-ethereum/crypto"
+	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 )
 
 var (

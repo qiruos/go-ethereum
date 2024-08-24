@@ -29,7 +29,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/qiruos/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/internal/testlog"
 	"github.com/qiruos/go-ethereum/log"
 	"github.com/qiruos/go-ethereum/p2p/enode"

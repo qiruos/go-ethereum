@@ -33,7 +33,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/qiruos/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/event"
 	"github.com/qiruos/go-ethereum/log"
 	"github.com/qiruos/go-ethereum/p2p/discover"

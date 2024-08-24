@@ -26,7 +26,7 @@ import (
 	"hash"
 
 	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/qiruos/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/p2p/enode"
 	"golang.org/x/crypto/hkdf"
 )

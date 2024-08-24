@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/qiruos/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/ethdb"
 	"github.com/qiruos/go-ethereum/p2p"
 	"github.com/qiruos/go-ethereum/rpc"

@@ -22,7 +22,7 @@ import (
 	"strings"
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/qiruos/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/internal/debug"
 	"github.com/qiruos/go-ethereum/log"
 	"github.com/qiruos/go-ethereum/p2p"

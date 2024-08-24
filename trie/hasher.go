@@ -19,7 +19,7 @@ package trie
 import (
 	"sync"
 
-	"github.com/qiruos/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/qiruos/go-ethereum/rlp"
 )
 

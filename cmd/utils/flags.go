@@ -37,6 +37,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/fdlimit"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto/kzg4844"
 	pcsclite "github.com/gballet/go-libpcsclite"
 	"github.com/qiruos/go-ethereum/accounts"
 	"github.com/qiruos/go-ethereum/accounts/keystore"
@@ -46,8 +48,6 @@ import (
 	"github.com/qiruos/go-ethereum/core/txpool/blobpool"
 	"github.com/qiruos/go-ethereum/core/txpool/legacypool"
 	"github.com/qiruos/go-ethereum/core/vm"
-	"github.com/qiruos/go-ethereum/crypto"
-	"github.com/qiruos/go-ethereum/crypto/kzg4844"
 	"github.com/qiruos/go-ethereum/eth"
 	"github.com/qiruos/go-ethereum/eth/catalyst"
 	"github.com/qiruos/go-ethereum/eth/downloader"
